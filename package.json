@@ -1,0 +1,27 @@
+{
+  "name": "watermarker",
+  "version": "1.0.0",
+  "description": "CLI tool to add watermarks to images in a directory",
+  "main": "index.js",
+  "bin": {
+    "watermarker": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "demo": "node test/demo.js"
+  },
+  "keywords": [
+    "watermark",
+    "image",
+    "cli",
+    "batch"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.3.10",
+    "sharp": "^0.33.2"
+  }
+}
