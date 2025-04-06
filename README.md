@@ -16,7 +16,7 @@ A simple CLI tool to add watermarks to all images in a directory.
 npm install
 
 # Install globally (optional)
-npm install -g .
+npm install -g watermarker-kit
 ```
 
 ## Usage
