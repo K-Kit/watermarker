@@ -8,7 +8,7 @@ const { program } = require('commander');
 
 // Configure CLI options
 program
-  .name('watermarker')
+  .name('watermarker-kit')
   .description('Add watermarks to all images in a directory')
   .version('1.0.0')
   .requiredOption('-i, --input <directory>', 'Input directory containing images')

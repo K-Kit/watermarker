@@ -1,10 +1,10 @@
 {
-  "name": "watermarker",
+  "name": "watermarker-kit",
   "version": "1.0.0",
   "description": "CLI tool to add watermarks to images in a directory",
   "main": "index.js",
   "bin": {
-    "watermarker": "./index.js"
+    "watermarker-kit": "./index.js"
   },
   "scripts": {
     "start": "node index.js",

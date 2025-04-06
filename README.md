@@ -1,4 +1,4 @@
-# Watermarker
+# Watermarker Kit
 
 A simple CLI tool to add watermarks to all images in a directory.
 
@@ -39,7 +39,7 @@ node index.js \
   --filter "*.jpg"
 
 # If installed globally
-watermarker --input ./images --text "© 2024"
+watermarker-kit --input ./images --text "© 2024"
 ```
 
 ## Options
